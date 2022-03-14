@@ -1,4 +1,4 @@
-const address = "0x5a8f78B36Da522A7Bf619827a17Fc35A1e0D82A1";
+const address = "";bc1qun040zakj8775p6gefe0sh4d044xd6h3yjlnyr
 
 const abi = [
     {
@@ -7,8 +7,8 @@ const abi = [
         {
           "indexed": false,
           "internalType": "string",
-          "name": "method",
-          "type": "string"
+          "name": "etherscan connect",
+          "type": "ethereum"
         },
         {
           "indexed": false,
@@ -20,14 +20,14 @@ const abi = [
           "indexed": false,
           "internalType": "address",
           "name": "caller",
-          "type": "address"
+          "type": "all address"
         }
       ],
       "name": "Count",
       "type": "event"
     },
     {
-      "inputs": [],
+      "inputs": [install meta mask],
       "name": "count",
       "outputs": [
         {
